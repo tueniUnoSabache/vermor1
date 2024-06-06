@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+body{
+    font-family: "calibri light";
+}
+.contenedor{
+    background: gray;
+    width: 80%;
+    margin: auto;
+}
+header{
+    height: 400px;
+    background-image: url(../imagenes/fondochino.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+main{
+    background: gray;
+    padding: 20px 30px;
+}
+
+main .foto{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(42, 49, 49);
+    border-radius: 50%;
+    margin: -90px 0 20px 0;
+    border: 6px solid #ffffff;
+}
+
+main .foto img{
+    background-image: url(../imagenes/fondochino.jpg);
+    width: 100%;
+    border-radius: 50%;
+    background-position: center;
+}
+
+footer{
+    background: rgb(51, 58, 58);
+    text-align: center;
+    padding: 25px;
+    color: #ffffff;
+}
+
+/****Boton****/
+
+.boton a{
+    background: rgb(38, 185, 185);
+    text-decoration: none; /*Quita subrayado*/
+    color: white;
+    font-size: 18px;
+    display:block;
+    padding: 15px 10px;
+    border-radius: 5px;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
